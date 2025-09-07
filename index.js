@@ -9,7 +9,8 @@ app.use(express.json());
 
 const {
     MongoClient,
-    ServerApiVersion
+    ServerApiVersion,
+    ObjectId
 } = require('mongodb');
 const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.dse9fiu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`;
 
@@ -52,6 +53,48 @@ async function run() {
                 });
             }
         })
+
+
+        app.get("/quotes", async (req, res) => {
+            try {
+                const {
+                    email
+                } = req.query;
+                let filter = {};
+
+                if (email) {
+                    filter = {
+                        submittedBy: email
+                    };
+                }
+
+                const quotes = await quotesCollection.find(filter).toArray();
+                res.status(200).json(quotes);
+            } catch (error) {
+                res.status(500).json({
+                    message: "Failed to fetch quotes",
+                    error
+                });
+            }
+        });
+
+        app.get("/quotes/:id", async (req, res) => {
+            try {
+                const id = req.params.id;
+                const quote = await quotesCollection.findOne({
+                    _id: new ObjectId(id)
+                });
+                if (!quote) return res.status(404).json({
+                    message: "Quote not found"
+                });
+                res.status(200).json(quote);
+            } catch (error) {
+                res.status(500).json({
+                    message: "Failed to fetch quote",
+                    error
+                });
+            }
+        });
 
         app.post("/quotes", async (req, res) => {
             try {
