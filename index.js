@@ -10,7 +10,13 @@ const admin = require("firebase-admin");
 const app = express()
 const port = process.env.PORT || 5000;
 
-app.use(cors());
+app.use(cors({
+    origin: [
+        'http://localhost:5173',
+        'https://sunnah-sayings.vercel.app'
+    ],
+    credentials: true
+}));
 app.use(express.json());
 
 const decodedKey = Buffer.from(process.env.FB_SERVICE_KEY, 'base64').toString('utf8');
