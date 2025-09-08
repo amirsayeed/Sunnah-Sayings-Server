@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "sunnah-sayings",
+  "private_key_id": "0f95486fb6ffa994616a4961fe7cf3296044b4b5",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDo0ZGJqWubMmpW\nBDuyLPXsTR/2bllw1VXvLPfEFwyitlgnt/IQgOppKDsFFO0uQHaxO/RUVY/0nWdy\nMXmnKVXASuqtKwL9mJZlBDaskqDg5BmDHfTIi9MCDHJ1oSmNA+Kyl6nDIQ5q+MWt\n+6bMNqwOaHJmL0M/ctrPgurDg8r9suwj3fITQYMprVnE0l0pjelvcXvM3J513Vrc\nUrprQjTn30zyKojttgCjvpaaoFa+EZe8IEag+7E3dTrjDPf3qbFCcNgQURTN28cu\nJwWxtYG/Mu6HrFXWihXu+eQB45yWRKeb5R5YA/wS98aEXZjxh1GxgZBsXvHzcVee\nKRmzeqoNAgMBAAECggEAMqpYl7Ks3itMhMeLDi1Gn1PxXrmI8Usb1l7c1GmHsGkq\nKgqXvQuw941vup1hOC2DJvK7KxcrqroOZwVpSf1u0df71g+EKRfpsrYGB+wo4ogB\nHU2JlZMIKmv3BK470ppD3UWwBezNrG3S5xfapppHOyNzsdUbN1WRVJNS75VguXCq\nNhv5raEJJkSfnjR7r/LiWtF6JaglU07uB3ANGQPtndIbmCkXEYfTFBvRJxK1iLq0\nkNt2bmbivaTtBGZtbdJ1I8ctYsof4NvG0MVKWoSD4wcr/Sp4C2kdCWz1oNF95Svs\nu/XlfS+D7BQeuzeM0QrHL/KGep3SMzCrGZhvx8W/gQKBgQD5suNLG4aP4wJ1DZOU\nakoSttAwz/rWwp8F9pmxWbEJjf7YidZh+SB02HCfXjRCWFj/SAuL3Zkixk0/oUWw\nq+a6l+9Dt98vbA4UYKCZGzF8OliF2C1B7Kc3cmSLLKe9PZB2PKu0XPre5mqMf6Gi\nkxNMGwyVCOAbqAufELf44h3isQKBgQDusaGEcHvTKI1HPszgbuAj3/Fwe4fMThwY\nZmKv8loWiKitYBht2JEDBJWQFJytRJTaKFUTCvH0bFoDfXQaKmmzK6rOpaNIKPsL\npP4X3kyfCKhPjLzEeFCkWwRv9M4vtrpnudwDXDKhQYQqV58QBssuknD9ToZTUI0i\nKhSEuP68HQKBgAvWekYeSPPbXEt2WE/J9jcK6bXWtlqmIWnj9gddbDI6xCE576r3\nZ52CgVxc1/dpPtbjcICyAcePRSxGFgq5K5gfCd3ZAsC5y7UVm6eGjYMJNRcrV4Hv\nmUHcr32VoWIsYAPq/mzvl4knvVdp2ZzegiSyh5ctM4q8HcjtvvsSpT4RAoGAQKtn\ns1Y2djNac58UKwpfN9kItQ0C8duHySSUQE9NESXdbXvHops2TrcDPpIXEOqv2Ztr\n0Uj53NsuWBu5RQ2QrbZ7BJnj7z0LJ1CAdz8HS18xGrxquGBQmPb/8MVGx66eOlQk\nw9RK812ozUAIHHN6wRdz/W00/4Wnd0YnYP4uJhECgYArS2cTVtAIhQPNbOK6VZ88\ni6kfLoPmoBG6stW1fQwsVmS09fz2pBah4tcaD0eAKMjyHxaFXmheYW2wOhFmDkkA\np6pCT9s6VHMcQtP3i16YuWqz1trxwTpUQ/nJoCSLgUEdafSdOV5KQv385xPUuX/v\n2UoDX7iSIVRMA3pW3L9+ow==\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-fbsvc@sunnah-sayings.iam.gserviceaccount.com",
+  "client_id": "114742362012855889234",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-fbsvc%40sunnah-sayings.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
